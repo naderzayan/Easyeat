@@ -1,0 +1,29 @@
+.mainOfTotalCard {
+    background: rgb(43, 42, 42);
+    border: 2px solid #fff;
+    border-radius: 14px;
+    padding: 2.5em;
+    .total {
+        display: flex;
+        padding: .2em;
+        gap: 5em;
+        color: #fff;
+    }
+    .Shipping {
+        display: flex;
+        padding: .2em;
+        gap: 5em;
+        color: #fff;
+    }
+    .button {
+        padding: 1em;
+    }
+    button {
+        width: 100%;
+        height: 2.8em;
+        background: red;
+        border: 2px solid rgb(240, 140, 140);
+        border-radius: 3em;
+        color: #fff;
+    }
+}

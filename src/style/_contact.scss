@@ -1,0 +1,69 @@
+.mainOfContact {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/shop_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  h1 {
+    text-align: center;
+    color: #fff;
+    padding: 2.5em;
+  }
+}
+
+.contactDetails {
+  padding: 40px;
+  text-align: center;
+  background: url(/backgroun2.png);
+  height: 100vh;
+
+  .titles {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+
+  p,
+  h3 {
+    color: #fff;
+  }
+}
+
+.mainOfForm {
+    padding: 2.5em;
+    height: 60vh;
+    background: rgb(43, 42, 42);
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: start;
+    max-width: 1000px;
+    margin: auto;
+
+    input {
+      height: 3em;
+      width: calc(33% - 1em);
+      border: 2px solid #fff;
+      border-radius: 0.5em;
+      padding: 0 1em;
+      background: rgb(43, 42, 42);
+    }
+    input:hover {
+      border: 2px solid rgb(199, 20, 20);
+    }
+
+    .text {
+      width: 100%;
+      height: 8em;
+    }
+    button {
+        height: 3em;
+        width: 25%;
+        background: rgb(43, 42, 42);
+        border: 2px solid #fff;
+        border-radius: .5em;
+        color: #fff;
+    }
+  }
+}

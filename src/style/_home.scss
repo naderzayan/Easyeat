@@ -1,0 +1,133 @@
+.mainOfHome {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroContent {
+  margin-top: 5rem;
+}
+
+.mainOfHome h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+}
+
+.mainOfHome p {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+
+  button {
+    padding: 1em;
+    width: 15%;
+    background: red;
+    border: 1px solid rgb(240, 140, 140);
+    border-radius: 3em;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.mostSelling {
+  background: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+  background-image: url(/backgroun2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .most {
+    padding: 2.5em;
+  }
+
+  p {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background-image: url(/backgroun2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imgvid {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  background-image: url(/backgroun2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding: 1em;
+    opacity: 0.5;
+  }
+
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+
+    span {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+}

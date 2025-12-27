@@ -1,0 +1,60 @@
+.mainOfShop {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/shop_background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  h1 {
+    text-align: center;
+    color: #fff;
+    padding: 2.5em;
+  }
+  .para {
+    padding: 2em;
+    text-align: center;
+    background-image: url(/backgroun2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  .mainOfVarieties {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    background-image: url(/backgroun2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .imges {
+      img {
+        border: 2.5px solid #fff;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+      }
+      p {
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+}
+.shopCard {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-content: center;
+  justify-items: center;
+  background-image: url(/backgroun2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
