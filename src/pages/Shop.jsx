@@ -38,6 +38,8 @@ export default function Shop() {
         <ShopCard />
         <ShopCard />
         <ShopCard />
+        <ShopCard />
+        <ShopCard />
       </div>
       <Footer />
     </main>

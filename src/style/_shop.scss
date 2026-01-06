@@ -28,6 +28,7 @@
     display: flex;
     justify-content: center;
     gap: 1.5em;
+    padding: 1em;
     background-image: url(/backgroun2.png);
     background-size: cover;
     background-position: center;
@@ -47,10 +48,11 @@
   }
 }
 .shopCard {
-  padding: 1em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2em;
+  gap: 1em;
   justify-content: center;
   justify-items: center;
   background-image: url(/backgroun2.png);
